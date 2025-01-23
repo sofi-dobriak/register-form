@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="form-login-backgdrop">
+        <div class="form-login-container">
+            <form class="form-login">
+                <h1 class="form-title">Create an account</h1>
+
+                <div class="google-fb-container">
+                    <div class="google-reg-container">
+                        <button class="social-button" type="button">
+                            <img src="./images/google.png" alt="Google icon">
+                            Google
+                        </button>
+                    </div>
+
+                    <div class="fb-reg-container">
+                        <button class="social-button" type="button">
+                            <img src="./images/facebook.png" alt="Facebook icon">
+                            Facebook
+                        </button>
+                    </div>
+                </div>
+
+                <p class="or-text">or</p>
+
+
+                <div class="login-container">
+                    <label class="login-label" for="user-email">Email</label>
+                    <div class="input-container">
+                        <input class="login-input" type="email" id="user-email" name="user-email"
+                            placeholder="Enter you email">
+                    </div>
+                </div>
+
+                <div class="login-container">
+                    <div class="label-text-container">
+                        <label class="login-label password" for="user-password">Password</label>
+                        <a class="forgot-text" href="#">Forgot?</a>
+                    </div>
+                    <div class="input-container">
+                        <input class="login-input" type="password" id="user-password" name="user-password"
+                            placeholder="Enter you password">
+                        <svg class="eye-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-eye"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <button class="form-button" type="submit">Create account</button>
+
+            </form>
+
+            <div class="question-sign-container">
+                <p class="have-account-question">Already have an account ?</p>
+                <a class="sign-up-link" href="./index.html">Sign up</a>
+            </div>
+
+            <!-- Theme -->
+            <button class="theme-button" type="button">
+                <svg class="theme-icon-moon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-moon"></use>
+                </svg>
+                <svg class="theme-icon-sun" width="20" height="20">
+                    <use href="./images/icons.svg#icon-sun"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
